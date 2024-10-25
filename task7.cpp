@@ -12,7 +12,7 @@ int main()
 
     for (int i = 1; i <= totalSubjects; i++)
     {
-        cout << "Enter the marks of subjects: ";
+        cout << "Enter the marks of subjects" << i << ": ";
         cin >> marks;
         totalMarks += marks;
     }
